@@ -18,6 +18,10 @@ a {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #FF6900;
     padding-inline: 10%;
     padding-block: 10px;
@@ -25,6 +29,7 @@ header {
     color: white;
     align-items: center;
     box-shadow: 0 0 5px black;
+    z-index: 1;
 }
 
 ul {
@@ -35,6 +40,7 @@ ul {
 main {
     padding-inline: 10%;
     padding-block: 50px;
+    margin-top: 100px;
 }
 
 .card {
