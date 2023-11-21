@@ -119,3 +119,29 @@ h5 span {
     flex-wrap: wrap;
     gap: 1%;
 }
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    padding-inline: 10%;
+    padding-block: 30px;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+footer li {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer i {
+    font-size: 20px;
+    margin-right: 5px;
+}
