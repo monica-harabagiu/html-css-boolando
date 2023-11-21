@@ -38,7 +38,7 @@ main {
 }
 
 .card {
-    width: 30%;
+    width: 30%; 
 }
 
 .image-preview {
@@ -49,12 +49,14 @@ main {
     width: 100%;
 }
 
-.label {
-    display: inline-block;
+.labels {
     position: absolute;
     bottom: 30px;
     left: 0;
+    gap: 5px;
     font-size: 12px;
+    color: white;
+    font-weight: 600;
 }
 
 .heart {
@@ -62,8 +64,22 @@ main {
     top: 10px;
     right: 0;
     font-size: 16px;
+    background-color: white;
+    padding: 3%;
+    color: black;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.discount {
+    background-color: red;
+    padding: 1% 2%;
 }
 
 .sustainability {
-    margin-left: 40px;
+    
+    background-color: green;
+    padding: 1% 2%;
 }
