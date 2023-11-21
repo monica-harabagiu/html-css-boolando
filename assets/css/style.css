@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #FF6900;
+    padding-inline: 10%;
+    padding-block: 10px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+}
+
+ul {
+    list-style-type: none;
+    gap: 20px;
+}
