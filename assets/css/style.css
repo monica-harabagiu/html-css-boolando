@@ -49,6 +49,17 @@ main {
     width: 100%;
 }
 
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .img-hover {
+    display: inline-block;
+}
+
 .labels {
     position: absolute;
     bottom: 30px;
@@ -57,6 +68,10 @@ main {
     font-size: 12px;
     color: white;
     font-weight: 600;
+}
+
+.label {
+    padding: 1% 2%;
 }
 
 .heart {
@@ -75,11 +90,8 @@ main {
 
 .discount {
     background-color: red;
-    padding: 1% 2%;
 }
 
 .sustainability {
-    
     background-color: green;
-    padding: 1% 2%;
 }
