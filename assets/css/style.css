@@ -43,8 +43,14 @@ main {
     margin-top: 100px;
 }
 
+#cards {
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
 .card {
-    width: calc(98% / 3);
+    width: calc((100% / 3) - 10px);
     margin-bottom: 5%; 
 }
 
@@ -57,14 +63,15 @@ main {
 }
 
 .img-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
     display: none;
 }
 
 .card:hover .img-hover {
     display: inline-block;
+}
+
+.card:hover .first-img {
+    display: none;
 }
 
 .labels {
@@ -119,11 +126,6 @@ h5 span {
     font-weight: 200;
     color: black;
     text-decoration: line-through;
-}
-
-#cards {
-    flex-wrap: wrap;
-    gap: 1%;
 }
 
 footer {
